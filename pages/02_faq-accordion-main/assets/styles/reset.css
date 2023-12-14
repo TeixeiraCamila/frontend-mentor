@@ -38,6 +38,11 @@ body {
   background: var(--light_pink);
 }
 .attribution {
-  margin-top: 60px;
+  margin: 60px auto 30px auto;
   text-align: center;
+  font-size: 12px;
+}
+.attribution a {
+  color: var(--grayish_purple);
+  font-size: 12px;
 }
