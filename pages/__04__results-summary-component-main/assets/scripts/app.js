@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
 
 async function fetchData() {
   const response = await fetch(
-    '/assets/data.json'
+    '/pages/__04__results-summary-component-main/assets/data.json'
   );
   const data = await response.json();
   setData(data);
