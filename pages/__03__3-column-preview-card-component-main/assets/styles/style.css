@@ -1,0 +1,58 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+}
+p,
+a,
+span {
+  font-family: 'Lexend Deca', sans-serif;
+}
+.cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  overflow: hidden;
+  width: fit-content;
+  margin: 0 auto;
+}
+.card {
+  background: var(--background);
+  flex: 1 1 275px;
+  max-width: 275px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+.card__icon {
+  max-height: 40px;
+}
+.card__icon img {
+  width: inherit;
+}
+.card__title {
+  color: var(--light_gray);
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.card__txt {
+  color: var(--Transparent);
+}
+.card button{
+  color: var(--background);
+  padding: 15px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+.card button:hover {
+  background: transparent;
+  color: var(--Transparent);
+  border-color:var(--Transparent) ;
+}
