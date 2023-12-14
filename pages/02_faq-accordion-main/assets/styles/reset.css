@@ -1,0 +1,43 @@
+@import url('./style.css');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+/* ↓ BASIC RESET  ↓ */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+
+  --white: #ffffff;
+  --light_pink: #f9f0ff;
+  --grayish_purple: #8c6991;
+  --dark_purple: #2f1533;
+}
+body {
+  background: var(--light_pink);
+}
+.attribution {
+  margin-top: 60px;
+  text-align: center;
+}
