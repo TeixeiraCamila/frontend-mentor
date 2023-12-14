@@ -38,7 +38,7 @@ body {
   background: var(--light_grayish_blue);
 }
 .container {
-  max-width: 1460px;
+  width: calc(100% - 8rem);
   padding: 10px;
   margin: 50px auto;
 }
@@ -51,5 +51,5 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--violet);
 }

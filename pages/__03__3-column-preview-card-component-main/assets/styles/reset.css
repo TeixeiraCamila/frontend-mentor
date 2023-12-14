@@ -32,7 +32,6 @@ img {
 }
 .container {
   width: calc(100% - 8rem);
-  padding: 49px;
   margin: 0 auto;
 }
 
@@ -43,5 +42,5 @@ img {
 }
 .attribution a {
   font-size: 11px;
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }

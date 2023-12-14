@@ -10,6 +10,9 @@ a,
 span {
   font-family: 'Lexend Deca', sans-serif;
 }
+main .container{
+  margin: 170px auto;
+}
 .cards__wrapper {
   display: flex;
   flex-wrap: wrap;
