@@ -4,7 +4,7 @@ body {
 header {
   background-image: url(../images/background-pattern-desktop.svg);
   height: 320px;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: 0 auto;
 }
 
