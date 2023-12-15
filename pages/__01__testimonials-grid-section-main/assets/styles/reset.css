@@ -38,9 +38,9 @@ body {
   background: var(--light_grayish_blue);
 }
 .container {
-  width: calc(100% - 8rem);
-  padding: 10px;
+  width: calc(100vw- 8rem);
   margin: 50px auto;
+  max-width: 1300px;
 }
 @media (max-width: 800px) {
 }
