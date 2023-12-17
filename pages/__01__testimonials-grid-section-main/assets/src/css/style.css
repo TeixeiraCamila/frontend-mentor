@@ -3,7 +3,7 @@
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 .content__wrapper {
-  padding: 1rem;
+  padding: 3rem 1rem;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(4, 255px);

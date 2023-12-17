@@ -46,5 +46,6 @@ body {
   margin: 2rem;
 }
 .attribution a {
+  font-size: .6875rem;
   color: var(--violet);
 }
