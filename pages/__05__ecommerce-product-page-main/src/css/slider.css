@@ -1,8 +1,6 @@
-main .container {
-  display: flex;
-  gap: 8.125rem;
-  margin: 5.5625rem auto;
-}
+@import url(/node_modules/@fancyapps/ui/dist/fancybox/fancybox.css);
+@import url(/node_modules/@fancyapps/ui/dist/carousel/carousel.css);
+
 .slider__item img {
   max-width: 6.25rem;
   border-radius: 10px;
@@ -37,28 +35,7 @@ main .container {
   max-height: 27.6875rem;
   border-radius: 10px;
 }
-#lg-container-1 .lg-backdrop {
-  background-color: hsl(0, 0%, 0%, 75%);
-}
-#lg-container-1 .lg-outer .lg-thumb-outer {
-  background-color: transparent;
-}
-#lg-container-1 .lg-outer .lg-thumb-item.active,
-#lg-container-1 .lg-outer .lg-thumb-item:hover {
-  border-color: var(--orange);
-}
-#lg-container-1 .lg-outer .lg-thumb-item {
-  position: relative;
-}
-#lg-container-1 .lg-outer .lg-thumb-item:hover::after {
-  content: '';
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: hsl(0, 0%, 100%, 75%);
-}
+
 @media (min-width: 694px) {
   .slider__wraper .slider__item:hover::after {
     content: '';
@@ -92,29 +69,15 @@ main .container {
   .slider__main li {
     width: 300px;
   }
+  .f-button:hover:not([disabled]),
   .slider__container button {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    transform: translateY(-50%);
     background-color: var(--light_grayish_blue);
-    font-family: 'Kumbh Sans', sans-serif;
     border-radius: 50%;
     height: 41px;
     width: 41px;
     color: var(--black);
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    cursor: pointer;
   }
-  button[data-controls='prev'] {
-    left: 2rem;
-  }
-  button[data-controls='next'] {
-    right: 2rem;
-  }
+}
+.f-carousel__dots {
+  display: none;
 }

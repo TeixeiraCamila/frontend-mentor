@@ -4,15 +4,20 @@
 @import url(./src/css/header.css);
 @import url(./src/css/slider.css);
 @import url(./src/css/info.css);
-@import url(./node_modules/lightgallery/css/lightgallery-bundle.css);
 
 .container {
   max-width: 71.5625rem;
   margin: 0 auto;
   padding: 0 10px;
 }
-.slider__container, .info__container {
-  max-width: calc(71.5625rem /2);
+main .container  {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.info__container {
+  padding: 0 40px;
 }
 .overlay {
   transition-delay: 0.5ms;
@@ -26,4 +31,12 @@
   height: 100vh;
   z-index: 2;
   background: hsl(0, 0%, 0%, 70%);
+}
+@media (max-width: 1023px)  {
+  main .container  {
+    gap: 20px;
+  }
+  .info__container {
+    padding: 0 ;
+  }
 }

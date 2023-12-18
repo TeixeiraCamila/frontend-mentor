@@ -9,7 +9,7 @@
     "dev": "webpack --mode development --watch --entry ./src/js/app.js  -o ./"
   },
   "dependencies": {
-    "lightgallery": "^2.7.2",
+    "@fancyapps/ui": "^5.0.31",
     "lodash": "^4.17.21",
     "tiny-slider": "^2.9.4"
   }
