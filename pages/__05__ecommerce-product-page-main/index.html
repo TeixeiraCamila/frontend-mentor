@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
 
-  <title>Frontend Mentor | E-commerce product page</title>
-</head>
-
-<body>
-
-  <header>
-    <div class="container header__container">
-      <nav>
-        <div class="header__menu--open" id="menu--open">
-          <img src="./src/images/icon-menu.svg" alt="">
-        </div>
-        <div class="header__logo">
-          <img width="140" src="./src/images/logo.svg" alt="sneakers">
-        </div>
-        <ul class="header__menu">
-          <img src="./src/images/icon-close.svg" alt="" id="menu--close">
-          <li class="menu__item">
-            <a href="">Collections</a>
-          </li>
-          <li class="menu__item">
-            <a href="">Men</a>
-          </li>
-          <li class="menu__item">
-            <a href="">Women</a>
-          </li>
-          <li class="menu__item">
-            <a href="">About</a>
-          </li>
-          <li class="menu__item">
-            <a href="">Contact</a>
-          </li>
-        </ul>
-
-      </nav>
-      <div class="header__user">
-        <div class="user__cart">
-          <img src="./src/images/icon-cart.svg" alt="cart" id="user_cart">
-          <div class="cart__container">
-            <div class="cart__header">
-              <p>Cart</p>
-            </div>
-            <div class="cart__content">
-              <p>Your cart is empty</p>
-              <!-- <div class="content">
+  <body>
+    <header>
+      <div class="container header__container">
+        <nav>
+          <div class="header__menu--open" id="menu--open">
+            <img src="./src/images/icon-menu.svg" alt="" />
+          </div>
+          <div class="header__logo">
+            <img width="140" src="./src/images/logo.svg" alt="sneakers" />
+          </div>
+          <ul class="header__menu">
+            <img src="./src/images/icon-close.svg" alt="" id="menu--close" />
+            <li class="menu__item">
+              <a href="">Collections</a>
+            </li>
+            <li class="menu__item">
+              <a href="">Men</a>
+            </li>
+            <li class="menu__item">
+              <a href="">Women</a>
+            </li>
+            <li class="menu__item">
+              <a href="">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__user">
+          <div class="user__cart">
+            <img src="./src/images/icon-cart.svg" alt="cart" id="user_cart" />
+            <div class="cart__container">
+              <div class="cart__header">
+                <p>Cart</p>
+              </div>
+              <div class="cart__content" onc>
+                <p>Your cart is empty</p>
+                <!-- <div class="content">
                 <div>
                   <div class="prod__image">
                     <img src="./src/images/image-product-1-thumbnail.jpg" alt="">
@@ -67,73 +69,87 @@
                 </div>
                 <button>Checkout</button>
               </div> -->
+              </div>
             </div>
           </div>
-        </div>
-        <div class="user__avatar">
-          <img src="./src/images/image-avatar.png" alt="">
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <div class="container">
-      <div class="slider__container">
-        <div class="slider__mainImage">
-          <img src="./src/images/image-product-1.jpg" alt="">
-        </div>
-        <div class="slider__wraper" id="animated-thumbnails">
-          <a class="slider__item" href="./src/images/image-product-1.jpg">
-            <img src="./src/images/image-product-1-thumbnail.jpg" />
-          </a>
-          <a class="slider__item" href="./src/images/image-product-2.jpg">
-            <img src="./src/images/image-product-2-thumbnail.jpg" />
-          </a>
-          <a class="slider__item" href="./src/images/image-product-3.jpg">
-            <img src="./src/images/image-product-3-thumbnail.jpg" />
-          </a>
-          <a class="slider__item" href="./src/images/image-product-4.jpg">
-            <img src="./src/images/image-product-4-thumbnail.jpg" />
-          </a>
+          <div class="user__avatar">
+            <img src="./src/images/image-avatar.png" alt="" />
+          </div>
         </div>
       </div>
-      <div class="info__container">
-        sdjbjdsb
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="slider__container slider__container--desk">
+          <div class="slider__mainImage">
+            <img src="./src/images/image-product-1.jpg" alt="" />
+          </div>
+          <div class="slider__wraper" id="animated-thumbnails">
+            <a class="slider__item" href="./src/images/image-product-1.jpg">
+              <img src="./src/images/image-product-1-thumbnail.jpg" />
+            </a>
+            <a class="slider__item" href="./src/images/image-product-2.jpg">
+              <img src="./src/images/image-product-2-thumbnail.jpg" />
+            </a>
+            <a class="slider__item" href="./src/images/image-product-3.jpg">
+              <img src="./src/images/image-product-3-thumbnail.jpg" />
+            </a>
+            <a class="slider__item" href="./src/images/image-product-4.jpg">
+              <img src="./src/images/image-product-4-thumbnail.jpg" />
+            </a>
+          </div>
+        </div>
+        <div class="slider__container slider__container--mob">
+          <div class="slider__main" id="slider_main">
+            <img src="./src/images/image-product-1.jpg" alt="" />
+            <img src="./src/images/image-product-2.jpg" alt="" />
+            <img src="./src/images/image-product-3.jpg" alt="" />
+            <img src="./src/images/image-product-4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="info__container">
+          <span class="info__marca">
+            Sneaker Company
+          </span>
+          <h1 class="info__title">
+            Fall Limited Edition <br> Sneakers
+          </h1>
+          <p class="info__desc">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+          <span class="info__price">
+            <span> $125.00</span>
+            <sup> 50%</sup>
+            <br>
+            <b>  $250.00
+            </b>
+          </span>
+          <div class="info__qtde">
+            <div class="qtde__container">
+              <button data-q="minus">-</button>
+              <div class="qtde__display">0</div>
+              <button data-q="plus">+</button>
+            </div>
+            <button id="btn__add">add</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <!-- 
-  
-  
-  
-  
 
-  Sneaker Company
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io/home" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/TeixeiraCamila">Teixeira</a>.
+        <br />
+        <a href="../../index.html">Home</a>.
+      </div>
+    </footer>
 
-  
-
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart -->
-
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/TeixeiraCamila">Teixeira</a>.
-      <br>
-      <a href="../../index.html">Home</a>.
-    </div>
-  </footer>
-
-  <script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>

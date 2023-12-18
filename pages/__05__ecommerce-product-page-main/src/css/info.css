@@ -1,0 +1,38 @@
+.info__container {
+  padding: 2rem 0;
+  max-width: 560px;
+}
+.info__marca {
+  text-transform: uppercase;
+  color: var(--orange);
+  font-size: .85rem;
+  font-weight: 600;
+}
+.info__title {
+  color: var(--black);
+  font-weight: bold;
+  margin: 25px 0 45px 0;
+  font-size: 3rem;
+}
+.info__desc {
+  color: var(--dark_grayish_blue);
+  line-height: 1.5;
+  margin-bottom: 33px;
+}
+.info__price {
+  color: var(--black);
+}
+.info__price span {
+  font-size: 2rem;
+}
+.info__price  sup {
+  color: var(--orange);
+  background: var(--pale_orange);
+  padding: .3rem;
+  border-radius: 10px;
+}
+.info__price  b{
+  text-decoration: line-through;
+  color: var(--grayish_blue);
+  font-weight: 400;
+}

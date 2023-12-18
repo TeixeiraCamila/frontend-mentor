@@ -53,6 +53,7 @@ nav {
   height: 1.875rem;
   width: 1.875rem;
   position: relative;
+  cursor: pointer;
 }
 .cart__container.active,
 .user__cart:hover .cart__container {
@@ -129,7 +130,7 @@ nav {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 71.875rem) {
+@media (max-width: 1023px) {
   .container.header__container {
     padding: 1.25rem .625rem;
   }
@@ -169,10 +170,10 @@ nav {
   }
 
   .cart__container {
-    display: block;
     transform: translateX(150%);
   }
   .cart__container.active {
+    display: block;
     top: 150%;
     transform: translateX(10%);
   }

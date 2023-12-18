@@ -3,12 +3,16 @@
 @import url(./src/css/variaveis.css);
 @import url(./src/css/header.css);
 @import url(./src/css/slider.css);
+@import url(./src/css/info.css);
 @import url(./node_modules/lightgallery/css/lightgallery-bundle.css);
 
 .container {
   max-width: 71.5625rem;
   margin: 0 auto;
   padding: 0 10px;
+}
+.slider__container, .info__container {
+  max-width: calc(71.5625rem /2);
 }
 .overlay {
   transition-delay: 0.5ms;
