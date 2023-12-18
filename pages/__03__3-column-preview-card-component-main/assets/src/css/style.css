@@ -10,7 +10,7 @@ a,
 span {
   font-family: 'Lexend Deca', sans-serif;
 }
-main .container{
+main .container {
   margin: 170px auto;
 }
 .cards__wrapper {
@@ -47,9 +47,9 @@ main .container{
 .card__txt {
   color: var(--transparent);
   letter-spacing: 1px;
-  font-size: .7em;
+  font-size: 0.7em;
 }
-.card button{
+.card button {
   color: var(--background);
   padding: 15px 30px;
   border-radius: 40px;
@@ -62,5 +62,5 @@ main .container{
 .card button:hover {
   background: transparent;
   color: var(--transparent);
-  border-color:var(--transparent) ;
+  border-color: var(--transparent);
 }

@@ -1,5 +1,5 @@
 @import url('./style.css');
-/* ↓ BASIC RESET  ↓ */
+
 body,
 h1,
 h2,
@@ -37,10 +37,10 @@ main {
 
 /* FOOTER */
 .attribution {
-  font-size: .6875rem;
+  font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  font-size: .6875rem;
-  color: var( --dark_cyan);
+  font-size: 11px;
+  color: var(--dark_cyan);
 }

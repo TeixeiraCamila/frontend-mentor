@@ -1,7 +1,7 @@
 @import url(./reset.css);
 .card__wrapper {
-  border-radius: 30px;
-  max-width: 750px;
+  border-radius: 1.875rem;
+  max-width: 46.875rem;
   margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -12,24 +12,25 @@
 .card__summary {
   max-width: 50%;
   width: 100%;
-  padding: 45px;
+  padding: 2.8125rem;
 }
 @media (max-width: 900px) {
   .card__result,
   .card__summary {
     max-width: 100%;
-    padding: 25px;
+    padding: 1.5625rem;
   }
 }
 /* RESULTAD */
 .card__result {
   background: var(--bg);
-  border-radius: 30px;
-  padding: 45px 70px;
+  border-radius: 1.875rem;
+  padding: 2.8125rem 4.375rem;
   display: flex;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .card__result h2,
@@ -52,13 +53,14 @@
   opacity: 0.5;
 }
 .card__result .result {
-  height: 200px;
-  width: 200px;
+  height: 12rem;
+  width: 12rem;
   border-radius: 50%;
   background: var(--circle);
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   flex-direction: column;
 }
 .card__result .result span:nth-child(1) {
@@ -75,21 +77,20 @@
   margin-bottom: 1rem;
 }
 .summary__item img {
-  max-width: 25px;
+  max-width: 1.5625rem;
   transition: 300ms ease-in-out;
-
 }
 .summary__item:hover img {
   scale: 1.1;
 }
 .summary__item {
   cursor: pointer;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
   display: flex;
   align-items: center;
-  gap: 10px;
-  border-radius: 10px;
+  gap: .625rem;
+  border-radius: .625rem;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
@@ -108,7 +109,7 @@
 .card__summary button {
   width: 100%;
   border-radius: 40px;
-  height: 55px;
+  height: 3.4375rem;
   border: none;
   background: var(--dark_gray_blue);
   color: var(--pale_blue);

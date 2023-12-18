@@ -49,28 +49,21 @@ img {
   --pale_blue: #ebf1ff;
   --lavender: #c8c7ff;
   --dark_gray_blue: #303b5a;
-
-
 }
 body {
   background: var(--white);
 }
-.container {
-  width: calc(100% - 8rem);
-  margin: 4em auto;
+main {
+  margin: 5rem auto;
 }
 @media (max-width: 900px) {
-  .container {
-    margin: 0 auto;
-    width: 100%;
-  }
 }
 /* FOOTER */
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
-  font-size: 11px;
-  color: #3e52a3;
+  font-size: 0.6875rem;
+  color: var(--dark_gray_blue);
 }
