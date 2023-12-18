@@ -1,6 +1,10 @@
 # Frontend Mentor - 3-column preview card component
 
+**Design preview for the coding challenge**
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
+
+**My design preview for the coding challenge**
+![My design preview for the 3-column preview card component coding challenge](./assets/my-desktop-preview.png)
 
 ## Welcome! 👋
 

@@ -20,6 +20,7 @@ main .container{
   overflow: hidden;
   width: fit-content;
   margin: 0 auto;
+  justify-content: center;
 }
 .card {
   background: var(--background);
@@ -44,7 +45,9 @@ main .container{
   font-size: 2em;
 }
 .card__txt {
-  color: var(--Transparent);
+  color: var(--transparent);
+  letter-spacing: 1px;
+  font-size: .7em;
 }
 .card button{
   color: var(--background);
@@ -53,9 +56,11 @@ main .container{
   cursor: pointer;
   border: 2px solid transparent;
   font-weight: 600;
+  margin-top: 40px;
+  font-family: 'Lexend Deca', sans-serif;
 }
 .card button:hover {
   background: transparent;
-  color: var(--Transparent);
-  border-color:var(--Transparent) ;
+  color: var(--transparent);
+  border-color:var(--transparent) ;
 }
