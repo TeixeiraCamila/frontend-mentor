@@ -126,20 +126,21 @@ nav {
   border-radius: 10px;
   cursor: pointer;
 }
-.header__menu img,
-.header__menu--open {
+#menu--open,
+.header__container svg {
   display: none;
-  cursor: pointer;
 }
 @media (max-width: 1023px) {
   .container.header__container {
     padding: 1.25rem 0.625rem;
   }
-  .header__menu img,
+  #menu--open,
+  .header__container svg,
+  .header__menu,
   .header__menu--open {
     display: block;
   }
-  .header__menu img {
+  .header__menu #menu--close {
     max-width: 1rem;
     margin-bottom: 2rem;
   }

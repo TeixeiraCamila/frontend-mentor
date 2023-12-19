@@ -5,7 +5,7 @@
 .info__marca {
   text-transform: uppercase;
   color: var(--orange);
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-weight: 600;
 }
 .info__title {
@@ -25,14 +25,57 @@
 .info__price span {
   font-size: 2rem;
 }
-.info__price  sup {
+.info__price sup {
   color: var(--orange);
   background: var(--pale_orange);
-  padding: .3rem;
+  padding: 0.3rem;
   border-radius: 10px;
 }
-.info__price  b{
+.info__price b {
   text-decoration: line-through;
   color: var(--grayish_blue);
   font-weight: 400;
+}
+.info__qtde {
+  margin-top: 20px;
+}
+.info__qtde,
+.qtde__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 56px;
+}
+.qtde__container {
+  background: var(--light_grayish_blue);
+  padding: 1.5rem;
+  color: var(--black);
+  font-size: 1rem;
+}
+.qtde__container button {
+  border: none;
+  font-size: 1.5rem;
+  background: transparent;
+  cursor: pointer;
+  color: var(--orange);
+  font-weight: 600;
+}
+#btn__add {
+  background: var(--orange);
+  color: var(--white);
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  .info__qtde {
+    flex-wrap: wrap;
+  }
+  .qtde__container {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
