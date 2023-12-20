@@ -78,4 +78,8 @@
     width: 100%;
     justify-content: space-between;
   }
+  .info__title {
+    font-size: 2rem;
+    margin-bottom: 1.5625rem;
+  }
 }

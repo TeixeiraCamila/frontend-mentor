@@ -127,13 +127,14 @@ nav {
   cursor: pointer;
 }
 #menu--open,
-.header__container svg {
+#menu--close {
   display: none;
 }
 @media (max-width: 1023px) {
   .container.header__container {
     padding: 1.25rem 0.625rem;
   }
+  #menu--close,
   #menu--open,
   .header__container svg,
   .header__menu,

@@ -1,24 +1,23 @@
-
 .slider__item img {
-  max-width: 6.25rem;
-  border-radius: 10px;
+  max-width: 100px;
+  border-radius: 0.625rem;
 }
 .slider__wraper {
   display: flex;
-  gap: 1.875rem;
+  gap: 30px;
 }
 .slider__wraper .slider__item {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   position: relative;
 }
 .slider__wraper .slider__item:hover img {
-  border: 2px solid var(--orange);
+  border: 0.125rem solid var(--orange);
   position: relative;
 }
 .slider__wraper .slider__item {
   position: relative;
-  width: 6.25rem;
-  height: 6.25rem;
+  width: 100px;
+  height: 100px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -26,15 +25,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2.0625rem;
+  margin-bottom: 33px;
 }
 .slider__mainImage img {
-  max-width: 27.6875rem;
-  max-height: 27.6875rem;
-  border-radius: 10px;
+  max-width: 443px;
+  max-height: 443px;
+  border-radius: 0.625rem;
 }
 
-@media (min-width: 694px) {
+@media (min-width: 43.375rem) {
   .slider__wraper .slider__item:hover::after {
     content: '';
     width: inherit;
@@ -50,7 +49,7 @@
     display: none;
   }
 }
-@media (max-width: 694px) {
+@media (max-width: 43.375rem) {
   .slider__container--desk {
     display: none;
   }
@@ -65,17 +64,60 @@
     display: none;
   }
   .slider__main li {
-    width: 300px;
+    width: 18.75rem;
   }
   .f-button:hover:not([disabled]),
   .slider__container button {
     background-color: var(--light_grayish_blue);
     border-radius: 50%;
-    height: 41px;
-    width: 41px;
+    height: 2.5625rem;
+    width: 2.5625rem;
     color: var(--black);
   }
 }
 .f-carousel__dots {
   display: none;
+}
+.f-thumbs__slide__button img {
+  border-radius: 10px;
+}
+.is-classic .is-nav-selected .f-thumbs__slide__button::after {
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+}
+.f-button {
+  background: var(--white);
+}
+.fancybox__toolbar__column .f-button:not(:last-of-type) {
+  display: none;
+}
+.fancybox__toolbar__column .f-button:last-of-type {
+  background: transparent;
+}
+.fancybox__toolbar__column .f-button:last-of-type svg {
+  stroke: var(--orange);
+}
+.f-button svg {
+  stroke: var(--black);
+}
+.f-button:hover:not([disabled]) {
+  color: var(--orange);
+  background: var(--white);
+}
+.f-button:hover:not([disabled]).f-button svg {
+  stroke: var(--orange);
+}
+.fancybox__nav .f-button::before {
+  right: 200px;
+}
+.fancybox-image {
+  border-radius: 10px;
+  max-width: 553px;
+  max-height: 553px;
+}
+.fancybox__backdrop {
+  background: hsl(0, 0%, 0%, 75%);
+}
+.f-thumbs__slide__button{
+  width:90px ;
 }
