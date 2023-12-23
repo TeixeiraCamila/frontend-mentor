@@ -1,8 +1,6 @@
 export default function quantidade() {
   let btns = document.querySelectorAll('.qtde__container button');
-  btns.forEach((btn) => {
-    btn.addEventListener('click', setQtde);
-  });
+  btns.forEach((btn) => btn.addEventListener('click', setQtde));
 }
 let qtdeProd = document.querySelector('.qtde__display');
 function setQtde() {

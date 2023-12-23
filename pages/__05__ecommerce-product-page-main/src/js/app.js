@@ -1,13 +1,20 @@
 import * as cart from './cart.js';
-import * as menu from './menu.js';
 import _ from 'lodash';
 import slider from './slider.js';
 import quantidade from './quantidade.js';
 
-menu.openMenu();
-menu.closeMenu();
 cart.openCart();
-cart.addToCard();
-cart.deleteProd();
+cart.addProdToCart();
+cart.deleteProdFromCart();
 slider();
 quantidade();
+
+// MENU MOBILE
+let menu = document.querySelector('.header__menu');
+let btnsMenu = document.querySelectorAll('.btn__menu');
+
+btnsMenu.forEach((btn) => btn.addEventListener('click', toggleMenu));
+
+function toggleMenu() {
+  menu.classList.toggle('active');
+}

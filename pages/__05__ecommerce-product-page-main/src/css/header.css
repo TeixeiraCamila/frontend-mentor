@@ -173,12 +173,13 @@ nav {
   }
 
   .cart__container {
+    display: block;
     transform: translateY(-150%);
   }
   .cart__container.active {
     display: block;
     top: 150%;
     transform: translateY(0%);
-    right: -100%;
+    right: -150%;
   }
 }
