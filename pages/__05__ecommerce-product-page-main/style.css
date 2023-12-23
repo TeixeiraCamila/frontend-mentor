@@ -9,15 +9,12 @@
   max-width: 71.5625rem;
   margin: 0 auto;
   padding: 0 10px;
-}
-main .container  {
-  display: flex;
   gap: 60px;
-  flex-wrap: wrap;
-  padding: 30px 10px;
 }
-.info__container {
-  padding: 0 40px;
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 20px;
 }
 .overlay {
   transition-delay: 0.5ms;
@@ -32,11 +29,18 @@ main .container  {
   z-index: 2;
   background: hsl(0, 0%, 0%, 70%);
 }
-@media (max-width: 1023px)  {
-  main .container  {
+@media (max-width: 1023px) {
+  main .container {
     gap: 20px;
   }
   .info__container {
-    padding: 0 ;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1281px) {
+  .info__container,
+  .slider__container {
+    max-width: 45%;
   }
 }
