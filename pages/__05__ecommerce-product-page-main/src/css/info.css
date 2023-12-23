@@ -40,7 +40,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  height: 56px;
 }
 .qtde__container {
   background: var(--light_grayish_blue);
@@ -64,6 +63,7 @@
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  height: 56px;
 }
 
 @media (max-width: 1023px) {
