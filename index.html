@@ -5,136 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="theme-color" content="#317EFB" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./assets/css/geral.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      href="./assets/imgs/favicon-32x32.png"
     />
 
     <title>Challenges</title>
   </head>
 
   <body>
-    <header>
-      <nav class="container">
-        <h1>Challenges</h1>
-      </nav>
-    </header>
-
-    <main>
-      <div class="container">
-        <div class="list__cards">
-          <a
-            class="card"
-            href="./pages/__01__testimonials-grid-section-main/index.html"
-          >
-            <div class="card__preview">
-              <img
-                width="300"
-                height="250"
-                src="./pages/__01__testimonials-grid-section-main/assets/design/desktop-preview.jpg"
-                alt="Testimonials grid section"
-              />
-            </div>
-            <div class="card__content">
-              <h2 class="card__title">Testimonials grid section</h2>
-              <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-              </ul>
-            </div>
-          </a>
-
-          <a class="card" href="./pages/__02__faq-accordion-main/index.html">
-            <div class="card__preview">
-              <img
-                width="300"
-                height="250"
-                src="./pages/__02__faq-accordion-main/assets/design/desktop-preview.jpg"
-                alt="FAQ accordion"
-              />
-            </div>
-
-            <div class="card__content">
-              <h2 class="card__title">FAQ accordion</h2>
-              <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-                <li class="js">js</li>
-              </ul>
-            </div>
-          </a>
-
-          <a
-            class="card"
-            href="./pages/__03__3-column-preview-card-component-main/index.html"
-          >
-            <div class="card__preview">
-              <img
-                width="300"
-                height="250"
-                src="./pages/__03__3-column-preview-card-component-main/assets/design/desktop-preview.jpg"
-                alt="3 column preview card component"
-              />
-            </div>
-
-            <div class="card__content">
-              <h2 class="card__title">3 column preview card component</h2>
-              <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-              </ul>
-            </div>
-          </a>
-
-          <a
-            class="card"
-            href="./pages/__04__results-summary-component-main/index.html"
-          >
-            <div class="card__preview">
-              <img
-                width="300"
-                height="250"
-                src="./pages/__04__results-summary-component-main/assets/design/desktop-preview.jpg"
-                alt="Results summary component"
-              />
-            </div>
-
-            <div class="card__content">
-              <h2 class="card__title">Results summary component</h2>
-              <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-              </ul>
-            </div>
-          </a>
-
-          <a
-            class="card"
-            href="./pages/__05__ecommerce-product-page-main/index.html"
-          >
-            <div class="card__preview">
-              <img
-                width="300"
-                height="250"
-                src="./pages/__05__ecommerce-product-page-main/design/desktop-preview.jpg"
-                alt="E-commerce product page"
-              />
-            </div>
-
-            <div class="card__content">
-              <h2 class="card__title">E-commerce product page</h2>
-              <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-                <li class="js">js</li>
-              </ul>
-            </div>
-          </a>
-        </div>
+    <div id="app">
+      <div class="container__loader" v-if="!cards">
+        <div class="loader"></div>
       </div>
-    </main>
+      <template v-else>
+        <app-header> </app-header>
+        <main>
+          <ul class="container card__list">
+            <li v-for="(item, i) in cards" :key="i" class="ediy card__item">
+              <a class="item__image" :href="item.link">
+                <img :src="item.img" alt="" />
+              </a>
+              <div class="item__content">
+                <h2 class="item__title">{{item.title}}</h2>
+                <ul>
+                  <li v-for="(item, i) in item.langs" :key="i" :class="item">
+                    {{ item }}
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </main>
+      </template>
+    </div>
+    <template id="appHeader">
+      <header class="header__container">
+        <nav class="container">
+          <h1 class="header__title">{{title}}</h1>
+        </nav>
+      </header>
+    </template>
   </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+  <script src="https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js"></script>
+  <script src="./assets/js/app.js"></script>
 </html>

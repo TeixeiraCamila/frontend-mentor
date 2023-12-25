@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Testimonials grid section",
+    "link": "pages/__01__testimonials-grid-section-main/index.html",
+    "img": "./pages/__01__testimonials-grid-section-main/assets/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
+  },
+  {
+    "title": "FAQ accordion",
+    "link": "pages/__02__faq-accordion-main/index.html",
+    "img": "./pages/__02__faq-accordion-main/assets/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css",
+      "js"
+    ]
+  },
+  {
+    "title": "3 column preview card component",
+    "link": "pages/__03__3-column-preview-card-component-main/index.html",
+    "img": "./pages/__03__3-column-preview-card-component-main/assets/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
+  },
+  {
+    "title": "Results summary component",
+    "link": "pages/__04__results-summary-component-main/index.html",
+    "img": "./pages/__04__results-summary-component-main/assets/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
+  },
+  {
+    "title": "E-commerce product page",
+    "link": "pages/__05__ecommerce-product-page-main/index.html",
+    "img": "./pages/__05__ecommerce-product-page-main/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
+  },
+  {
+    "title": "E-commerce product page",
+    "link": "pages/__06__blog-preview-card-main/index.html",
+    "img": "./pages/__06__blog-preview-card-main/assets/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
+  }
+]
