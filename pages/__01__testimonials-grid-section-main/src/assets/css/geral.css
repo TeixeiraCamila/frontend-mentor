@@ -1,6 +1,23 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+  --violet: #7541c8;
+  --dark_grayish_blue: #48556a;
+  --dark_blackish_blue: #19212e;
+  --white: #ffffff;
+
+  --light_gray: #cfcfcf;
+  --light_grayish_blue: #ecf2f8;
+  --font: 'Barlow Semi Condensed', sans-serif;
+}
+body {
+  background: var(--light_grayish_blue);
+}
+.content__wrapper h1,
+.content__wrapper span,
 .content__wrapper p {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: var(--font);
 }
 .content__wrapper {
   padding: 3rem 1rem;

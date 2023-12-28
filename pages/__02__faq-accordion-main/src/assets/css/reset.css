@@ -1,3 +1,6 @@
+@import url('./reset.css');
+
+/* ↓ BASIC RESET  ↓ */
 body,
 h1,
 h2,
@@ -7,7 +10,8 @@ li,
 a {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 16px;
+  
 }
 ul {
   list-style: none;
@@ -27,12 +31,12 @@ img {
   margin: 0;
   padding: 0;
 }
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  background: var(--light_gray);
+  height: 60vh;
 }
 footer {
   height: 10vh;
@@ -49,7 +53,9 @@ footer a {
   font-size: 16px;
   transition: 300ms ease-in-out;
   font-weight: 500;
+  font-family: var(--font);
 }
 footer a:hover {
   text-decoration: underline;
+  color: var(--dark_purple);
 }

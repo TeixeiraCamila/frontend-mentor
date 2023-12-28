@@ -1,14 +1,22 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
-body {
-  overflow-x: hidden;
+*{
+  --font: 'Work Sans', sans-serif;
+  font-family: var(--font);
+  --white: #ffffff;
+  --light_pink: #f9f0ff;
+  --grayish_purple: #8c6991;
+  --dark_purple: #2f1533;
 }
 header {
   background-image: url(../img/background-pattern-desktop.svg);
   min-height: 30vh;
   margin: 0 auto;
 }
-
+body {
+  background: var(--light_pink);
+}
 .faq__container {
   background: var(--white);
   padding: 1.875rem;

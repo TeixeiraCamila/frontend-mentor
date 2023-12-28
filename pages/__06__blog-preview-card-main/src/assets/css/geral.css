@@ -13,6 +13,7 @@
   --White: hsl(0, 0%, 100%);
   --Grey: hsl(0, 0%, 50%);
   --Black: hsl(0, 0%, 7%);
+  --font: Figtree-SemiBol;
 }
 body {
   height: 100vh;
@@ -27,6 +28,15 @@ main {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+.card__txt,
+.card__date ,
+.card__tag {
+  font-family: Figtree-SemiBol;
+}
+.card__title,
+.card__use {
+  font-family: Figtree-ExtraBold;
 }
 .card {
   background-color: var(--White);
@@ -51,7 +61,7 @@ main {
   color: var(--Black);
   width: fit-content;
   padding: 0.5rem;
-  font-family: Figtree-SemiBol;
+  
   border-radius: 10px;
 }
 .card__date {
@@ -60,7 +70,6 @@ main {
 .card__title {
   font-size: 1.5rem;
   color: var(--Black);
-  font-family: Figtree-ExtraBold;
   cursor: pointer;
 }
 .card__title:hover {
@@ -74,7 +83,6 @@ main {
   display: flex;
   gap: 20px;
   align-items: center;
-  font-family: Figtree-ExtraBold;
 }
 .card__user img {
   max-width: 30px;

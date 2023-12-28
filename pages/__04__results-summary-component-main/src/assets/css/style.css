@@ -1,4 +1,36 @@
 @import url(./reset.css);
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url(../fonts/static/HankenGrotesk-Medium.ttf);
+}
+* {
+  --Reaction__color: hsl(0, 100%, 67%);
+  --Reaction__bg: hsl(0, 100%, 67%, 0.059);
+
+  --Memory__color: hsl(39, 100%, 56%);
+  --Memory__bg: hsla(39, 100%, 56%, 0.059);
+
+  --Verbal__color: hsl(166, 100%, 37%);
+  --Verbal__bg: hsl(166, 100%, 37%, 0.059);
+
+  --Visual__color: hsl(234, 85%, 45%);
+  --Visual__bg: hsl(234, 85%, 45%, 0.059);
+
+  --bg: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+  --circle: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+  --white: #ffffff;
+  --pale_blue: #ebf1ff;
+  --lavender: #c8c7ff;
+  --dark_gray_blue: #303b5a;
+  --font:  Hanken Grotesk;
+
+  font-family:var(--font);
+}
+body {
+  background: var(--white);
+}
 .card__wrapper {
   border-radius: 1.875rem;
   max-width: 46.875rem;
