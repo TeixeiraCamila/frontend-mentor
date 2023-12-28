@@ -174,7 +174,7 @@ nav {
 
   .cart__container {
     display: block;
-    transform: translateY(-150%);
+    transform: translateY(-160%);
   }
   .cart__container.active {
     display: block;
