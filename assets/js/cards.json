@@ -53,5 +53,14 @@
       "html",
       "css"
     ]
+  },
+  {
+    "title": "QR code component",
+    "link": "pages/__07__qr-code-component-main",
+    "img": "./pages/__07__qr-code-component-main/src/assets/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
   }
 ]
