@@ -36,10 +36,11 @@ footer {
   color: #000;
   font-size: 16px;
 }
-footer , footer a {
+footer,
+footer a {
   color: #000;
   font-size: 16px;
-  transition: 300ms ease-in-out ;
+  transition: 300ms ease-in-out;
   font-weight: 500;
 }
 footer a:hover {
