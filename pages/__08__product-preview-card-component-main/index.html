@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="theme-color" content="#0d0d0d" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/assets/css/geral.css">
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./src/assets/imgs/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./src/assets/css/geral.css" />
-    <title>Frontend Mentor | QR code component</title>
-  </head>
 
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
   <body>
+    
     <main>
       <div class="card__container">
-        <div class="card__img">
-          <img src="./src/assets/imgs/image-qr-code.png" alt="QR code to visit Frontend Mentor" />
-        </div>
+        <div class="card__image"> </div>
         <div class="card__info">
-          <h1>Improve your front-end skills by building projects</h2>
-          <p>
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
-          </p>
+          <span class="info__type">Perfume</span>
+          <h1 class="info__title">Gabrielle Essence Eau De Parfum</h1>
+          <span class="info__desc">
+            A floral, solar and voluptuous
+            interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+            CHANEL.
+          </span>
+          <div class="info__price">
+            $149.99 <span> $169.99</span>
+          </div>
+          <button class="info__btn">
+            Add to Cart 
+          </button>
         </div>
       </div>
     </main>

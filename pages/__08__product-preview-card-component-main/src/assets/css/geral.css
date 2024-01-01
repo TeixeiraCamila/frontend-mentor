@@ -1,0 +1,101 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  --dark_cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very_dark_blue: hsl(212, 21%, 14%);
+  --dark_grayish_blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --font_secundaria: 'Fraunces', serif;
+  --font: 'Montserrat', sans-serif;
+
+  font-family: var(--font);
+  color: var(--very_dark);
+}
+
+p,
+span,
+a {
+  font-size: 14px;
+}
+body {
+  background: var(--cream);
+}
+main {
+  margin: 0 1rem;
+}
+.card__image {
+  background-image: url(../imgs/image-product-mobile.jpg);
+  width: 300px;
+  min-height: 240px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.card__info {
+  max-width: 300px;
+  background-color: var(--white);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.info__type {
+  color: var(--dark_grayish_blue);
+  text-transform: uppercase;
+}
+.info__title {
+  font-family: var(--font_secundaria);
+  font-size: 1.7rem;
+}
+.info__desc {
+  color: var(--dark_grayish_blue);
+}
+.info__price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--dark_cyan);
+  font-family: var(--font_secundaria);
+  font-size: 2rem;
+}
+.info__price span {
+  text-decoration: line-through;
+  color: var(--dark_grayish_blue);
+}
+.info__btn {
+  background: var(--dark_cyan);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.info__btn:hover {
+  background: var(--very_dark_blue);
+}
+.info__btn::before {
+  content: url(../imgs/icon-cart.svg);
+}
+/* DESK */
+@media (min-width: 600px) {
+  .card__container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .card__image {
+    background-image: url(../imgs/image-product-desktop.jpg);
+    width: 300px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    min-height: unset;
+  }
+  .card__info {
+    gap: 2rem;
+  }
+}

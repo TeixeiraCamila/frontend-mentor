@@ -48,7 +48,7 @@
   {
     "title": "Blog preview card",
     "link": "pages/__06__blog-preview-card-main/index.html",
-    "img": "./pages/__06__blog-preview-card-main/src/assets/design/desktop-preview.jpg",
+    "img": "./pages/__06__blog-preview-card-main/src/design/desktop-preview.jpg",
     "langs": [
       "html",
       "css"
@@ -57,7 +57,16 @@
   {
     "title": "QR code component",
     "link": "pages/__07__qr-code-component-main/index.html",
-    "img": "./pages/__07__qr-code-component-main/src/assets/design/desktop-preview.jpg",
+    "img": "./pages/__07__qr-code-component-main/src/design/desktop-preview.jpg",
+    "langs": [
+      "html",
+      "css"
+    ]
+  },
+  {
+    "title": "Product preview card component",
+    "link": "pages/__08__product-preview-card-component-main/index.html",
+    "img": "./pages/__08__product-preview-card-component-main/src/design/desktop-preview.jpg",
     "langs": [
       "html",
       "css"

@@ -9,12 +9,8 @@
   --dark_blue: hsl(218, 44%, 22%);
   font-family: 'Outfit', sans-serif;
 }
-main,
-footer,
+
 body {
-  background: var(--light_gray);
-}
-main {
   background: var(--light_gray);
 }
 .card__container {
