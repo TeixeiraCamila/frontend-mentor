@@ -2,11 +2,8 @@
 
 **Design preview for the coding challenge**
 
-![Design preview for the Testimonials grid section coding challenge](./assets/design/desktop-design.jpg)
+![Design preview for the Testimonials grid section coding challenge](./src/design/desktop-preview.jpg)
 
-**My design preview for the coding challenge**
-
-![Design preview for the Testimonials grid section coding challenge](./assets/my-desktop-design.png)
 
 ## Welcome! 👋
 

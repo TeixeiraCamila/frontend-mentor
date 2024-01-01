@@ -2,11 +2,7 @@
 
 **Design preview for the coding challenge**
 
-![Design preview for theFAQ accordion coding challenge](./assets/design/desktop-preview.jpg)
-
-**My design preview for the coding challenge**
-![Design preview for the FAQ accordion coding challenge](./assets/my-desktop-preview.png)
-
+![Design preview for theFAQ accordion coding challenge](./src/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
