@@ -98,4 +98,7 @@ main {
   .card__info {
     gap: 2rem;
   }
+  .info__title {
+    font-size: 2rem;
+  }
 }
