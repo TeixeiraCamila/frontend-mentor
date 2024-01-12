@@ -3,7 +3,10 @@
   font-family: Hanken Grotesk;
   src: url(../fonts/static/HankenGrotesk-Medium.ttf);
 }
-* {
+:root {
+  --font__principal:  Hanken Grotesk;
+  --accent__color: hsl(252, 100%, 67%);
+
   --Reaction__color: hsl(0, 100%, 67%);
   --Reaction__bg: hsl(0, 100%, 67%, 0.059);
 
@@ -24,11 +27,9 @@
   --pale_blue: #ebf1ff;
   --lavender: #c8c7ff;
   --dark_gray_blue: #303b5a;
-  --font:  Hanken Grotesk;
-
-  font-family:var(--font);
 }
 body {
+  font-family:var( --font__principal);
   background: var(--white);
 }
 .card__wrapper {
@@ -148,7 +149,7 @@ body {
   font-weight: 600;
   font-size: 0.9em;
   cursor: pointer;
-  font-family: Hanken Grotesk;
+  font-family: var(--font__principal)
 }
 .card__summary button:hover {
   background: var(--bg);

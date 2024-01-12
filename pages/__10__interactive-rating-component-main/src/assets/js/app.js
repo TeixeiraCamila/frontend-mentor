@@ -13,7 +13,8 @@ new Vue({
   created() {},
   methods: {
     select(e) {
-      e.target.classList.toggle('select');
+      this.error = false;
+      this.rate = e;
     },
     submit() {
       if (this.rate) {

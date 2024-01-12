@@ -8,6 +8,7 @@ a {
   margin: 0;
   padding: 0;
   font-size: 1rem;
+  font-family: var(--font__principal);
 }
 ul {
   list-style: none;
@@ -26,31 +27,39 @@ img {
   margin: 0;
   padding: 0;
 }
-
-main {
+body {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  flex-direction: column;
+}
+main {
+  min-height: 90vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer {
-  height: 10vh;
+  min-height: 10vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #000;
+  color: #111;
   font-size: 16px;
 }
 footer,
 footer a {
-  color: #000;
+  color: #111;
   font-size: 16px;
   transition: 300ms ease-in-out;
   font-weight: 500;
-  font-family: var(--font);
+  font-family: var(--font__principal);
 }
 footer a:hover {
   text-decoration: underline;
-  color: var(--very_dark_cyan);
+  color: var(--accent__color);
 }

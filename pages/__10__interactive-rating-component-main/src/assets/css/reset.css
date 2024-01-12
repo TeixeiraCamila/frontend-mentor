@@ -8,6 +8,8 @@ a {
   margin: 0;
   padding: 0;
   font-size: 1rem;
+  font-family: var(--font__principal);
+
 }
 ul {
   list-style: none;
@@ -27,6 +29,7 @@ button {
   border: none;
   background: transparent;
   width: 100%;
+  font-family: var(--font__principal);
 }
 * {
   box-sizing: border-box;
@@ -55,7 +58,7 @@ footer a:hover {
 }
 footer,
 footer a {
-  color: #000;
+  color: #fff;
   font-size: 16px;
   transition: 300ms ease-in-out;
   font-weight: 500;

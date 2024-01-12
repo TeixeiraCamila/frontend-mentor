@@ -50,8 +50,6 @@ nav {
   border-color: var(--orange);
 }
 .user__cart {
-  height: 1.875rem;
-  width: 1.875rem;
   position: relative;
   cursor: pointer;
 }

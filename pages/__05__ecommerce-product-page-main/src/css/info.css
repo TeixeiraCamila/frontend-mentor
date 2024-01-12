@@ -15,6 +15,9 @@
   line-height: 1.5;
   margin-bottom: 33px;
 }
+.qtde__display {
+  width: 15px;
+}
 .info__price {
   color: var(--black);
 }
@@ -46,6 +49,7 @@
   padding: 1.5rem;
   color: var(--black);
   font-size: 1rem;
+  max-height: 56px;
 }
 .qtde__container button {
   border: none;

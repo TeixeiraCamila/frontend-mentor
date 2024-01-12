@@ -8,12 +8,13 @@
   font-family: Figtree-ExtraBold;
   src: url(../fonts/static/Figtree-ExtraBold.ttf);
 }
-* {
+:root {
+  --accent__color:hsl(0, 0%, 50%);
   --Yellow: hsl(47, 88%, 63%);
   --White: hsl(0, 0%, 100%);
   --Grey: hsl(0, 0%, 50%);
   --Black: hsl(0, 0%, 7%);
-  --font: Figtree-SemiBol;
+  --font__principal: Figtree-SemiBol;
 }
 body {
   height: 100vh;
@@ -22,6 +23,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  padding: 1rem;
 }
 main {
   display: flex;
@@ -71,6 +73,7 @@ main {
   font-size: 1.5rem;
   color: var(--Black);
   cursor: pointer;
+  transition: 300ms ease-in-out;
 }
 .card__title:hover {
   color: var(--Yellow);

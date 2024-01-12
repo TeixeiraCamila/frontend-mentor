@@ -1,5 +1,9 @@
 .f-carousel__slide img {
   border-radius: 20px;
+  max-width: 455px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .f-thumbs__slide__button {
   opacity: 1;
