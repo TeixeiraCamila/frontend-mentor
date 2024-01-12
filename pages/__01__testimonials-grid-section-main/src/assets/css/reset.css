@@ -44,18 +44,18 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #000;
+  color: #111;
   font-size: 16px;
 }
 footer,
 footer a {
-  color: #000;
+  color: #111;
   font-size: 16px;
   transition: 300ms ease-in-out;
   font-weight: 500;
-  font-family: var(--font);
+  font-family: var(--font__principal);
 }
 footer a:hover {
   text-decoration: underline;
-  color: var(--violet);
+  color: var(--accent__color);
 }
