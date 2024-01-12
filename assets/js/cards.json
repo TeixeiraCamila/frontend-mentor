@@ -3,73 +3,54 @@
     "title": "Testimonials grid section",
     "link": "pages/__01__testimonials-grid-section-main/index.html",
     "img": "./pages/__01__testimonials-grid-section-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
   },
   {
     "title": "FAQ accordion",
     "link": "pages/__02__faq-accordion-main/index.html",
     "img": "pages/__02__faq-accordion-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css",
-      "js"
-    ]
+    "langs": ["html", "css", "js"]
   },
   {
     "title": "3 column preview card component",
     "link": "pages/__03__3-column-preview-card-component-main/index.html",
     "img": "./pages/__03__3-column-preview-card-component-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
   },
   {
     "title": "Results summary component",
     "link": "pages/__04__results-summary-component-main/index.html",
     "img": "./pages/__04__results-summary-component-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
   },
   {
     "title": "E-commerce product page",
     "link": "pages/__05__ecommerce-product-page-main/index.html",
     "img": "./pages/__05__ecommerce-product-page-main/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
   },
   {
     "title": "Blog preview card",
     "link": "pages/__06__blog-preview-card-main/index.html",
     "img": "./pages/__06__blog-preview-card-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
   },
   {
     "title": "QR code component",
     "link": "pages/__07__qr-code-component-main/index.html",
     "img": "./pages/__07__qr-code-component-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
   },
   {
     "title": "Product preview card component",
     "link": "pages/__08__product-preview-card-component-main/index.html",
     "img": "./pages/__08__product-preview-card-component-main/src/design/desktop-preview.jpg",
-    "langs": [
-      "html",
-      "css"
-    ]
+    "langs": ["html", "css"]
+  },
+  {
+    "title": "Interactive rating component",
+    "link": "pages/__10__interactive-rating-component-main/index.html",
+    "img": "./pages/__10__interactive-rating-component-main/src/design/desktop-preview.jpg",
+    "langs": ["html", "css"]
   }
 ]

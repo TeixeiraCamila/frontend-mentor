@@ -1,0 +1,100 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+  --accent: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light_grey: hsl(217, 12%, 63%);
+  --medium_grey: hsl(216, 12%, 54%);
+  --blue: #252d37;
+  --dark_blue: hwb(216 7% 91%);
+  --font: 'Overpass', sans-serif;
+  font-family: var(--font);
+  font-weight: 400;
+  transition: 300ms ease-in-out;
+}
+
+p,
+span,
+a {
+  font-size: 15px;
+}
+body {
+  background: var(--dark_blue);
+}
+main {
+  margin: 0 1rem;
+}
+
+.rating__card {
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  padding: 2rem;
+  background: var(--blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.rating__card > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.rating__icon {
+  align-self: flex-start;
+}
+.rating__title {
+  font-size: 2rem;
+}
+.rating__text {
+  color: var(--light_grey);
+}
+.rating__options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.rating__icon,
+.rating__options label {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: var(--dark_blue);
+  font-weight: bold;
+}
+.rating__options input[type='radio']:checked + label {
+  color: var(--white);
+  background: var(--accent);
+}
+.rating__options label:hover {
+  color: var(--white);
+  background: var(--medium_grey);
+}
+.rating__options li.select {
+  background: var(--accent);
+}
+button {
+  background: var(--accent);
+  color: var(--white);
+  text-transform: uppercase;
+  height: 40px;
+  border-radius: 20px;
+}
+.rating__card img{
+  max-width: 150px;
+}
+.rate__rate {
+  color: var(--accent);
+  background: var(--dark_blue);
+  border-radius: 20px;
+  padding: .5rem 1rem;
+}
+/* DESK */
+@media (min-width: 600px) {
+}
